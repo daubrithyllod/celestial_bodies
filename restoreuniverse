@@ -1,3 +1,4 @@
 #!/bin/bash
 # restoreuniverse
+pqsl --username=freecodecamp --dbname=postgres
 psql -U postgres < universe.sql
