@@ -1,0 +1,3 @@
+#!/bin/bash
+# restoreuniverse
+psql -U postgres < universe.sql

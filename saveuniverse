@@ -1,0 +1,5 @@
+#!/bin/bash
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+git add universe.sql
+git commit -m "Saving progress"
+git push --set-upstream origin main
